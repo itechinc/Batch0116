@@ -1,0 +1,48 @@
+package com.catalog.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.catalog.common.common;
+import com.catalog.pages.SignInPage;
+import com.catalog.pages.WelcomePage;
+
+
+public class LoginTests  {
+public common CM;
+public SignInPage SignIn;
+public WelcomePage Welcome;
+private WebDriver driver;
+
+	
+	@BeforeMethod
+	public void setUp(){
+	   CM =new common(driver);
+	   driver=CM.getDriver();
+    //  driver=CM.openBrowser();
+      CM.openURL();
+	
+	}
+	
+	@AfterMethod
+	public void tearDown(){
+     //  CM.closeBrowser();
+		System.out.println("After MEthod");
+	}
+	
+	@Test
+	public void Login01(){
+     Welcome =new WelcomePage(driver);
+	  Welcome.clickLogYourSelf();
+	  SignIn=new SignInPage(driver);
+	  SignIn.login("ecalix@test.com", "test123");
+      String ExpectedText="Welcome to iBusiness";
+      CM.verifyText(ExpectedText);
+      Welcome.clickLogOff();
+	}
+	
+
+
+}

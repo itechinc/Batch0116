@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+<listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+   </listeners> 
+ 
+  <test name="Regression1">
+     <sysproperty key="org.uncommons.reportng.escape-output" value="false"/>
+      <sysproperty key="org.uncommons.reportng.title" value="Test"/>
+    <classes>
+      <class name="MyFirstNotRecordedTestNG"/>
+      <class name="LoginTest"/>
+    </classes>
+  </test>
+</suite>

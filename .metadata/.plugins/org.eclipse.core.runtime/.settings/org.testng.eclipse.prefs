@@ -1,0 +1,4 @@
+.outdir=/test-ouotput
+SeleniumPractice.outdir=/test-output
+SeleniumPractice.useProjectJar=true
+eclipse.preferences.version=1

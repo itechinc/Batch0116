@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6900" started-at="2016-02-02T03:46:07Z" finished-at="2016-02-02T03:46:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6900" started-at="2016-02-02T03:46:07Z" finished-at="2016-02-02T03:46:14Z">
+      <class name="MyFirstPageFactoryGrid">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MyFirstPageFactoryGrid@184e19a1]" name="setUp" is-config="true" duration-ms="5569" started-at="2016-02-01T19:46:07Z" finished-at="2016-02-01T19:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login01()[pri:0, instance:MyFirstPageFactoryGrid@184e19a1]" name="Login01" duration-ms="1224" started-at="2016-02-01T19:46:13Z" finished-at="2016-02-01T19:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyFirstPageFactoryGrid@184e19a1]" name="tearDown" is-config="true" duration-ms="91" started-at="2016-02-01T19:46:14Z" finished-at="2016-02-01T19:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyFirstPageFactoryGrid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
