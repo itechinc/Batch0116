@@ -1,0 +1,29 @@
+[main] 11:20:35,575 INFO  [com.ecalix.common.ReadPropertyFile] Value is:Chrome
+[main] 11:20:38,809 INFO  [com.ecalix.common.CommonMethods] Executed Before Class Method Successfully
+[main] 11:20:38,809 INFO  [com.ecalix.common.CommonMethods] 
+Browser=chrome
+BrowserVersion=47.0.2526.73
+OS=Mac OS X
+OSVersion=10.10.5
+[main] 11:20:38,814 INFO  [com.ecalix.common.ReadPropertyFile] Value is:http://107.170.213.234/catalog/
+[main] 11:20:38,814 INFO  [com.ecalix.common.CommonMethods] URL = http://107.170.213.234/catalog/
+[main] 11:20:39,451 INFO  [com.ecalix.common.CommonMethods] URL navigating to =http://107.170.213.234/catalog/
+[main] 11:20:39,464 INFO  [com.ecalix.common.CommonMethods] URL Navigation
+[main] 11:20:39,493 INFO  [com.ecalix.pageobjects.WelcomePage] Loading WelcomePage page...
+[main] 11:20:44,590 INFO  [com.ecalix.pageobjects.WelcomePage] Welcome to iBusiness header found.
+[main] 11:20:44,596 INFO  [com.ecalix.common.CommonMethods] Test description: null
+[main] 11:20:44,596 INFO  [com.ecalix.common.CommonMethods] getMethod name:AccountLoginTests.testLogin01()[pri:0, instance:com.ecalix.tests.AccountLoginTests@abeafe7]
+[main] 11:20:44,596 INFO  [com.ecalix.common.CommonMethods] getName name:testLogin01
+[main] 11:20:44,596 INFO  [com.ecalix.common.CommonMethods] getTestClass name:[TestClass name=class com.ecalix.tests.AccountLoginTests]
+[main] 11:20:44,596 INFO  [com.ecalix.common.CommonMethods] getThrow name:java.lang.AssertionError: expected [Welcome to osCommerce Demo] but found [Welcome to iBusiness]
+[main] 11:20:44,596 INFO  [com.ecalix.common.CommonMethods] 
+[main] 11:20:44,597 INFO  [com.ecalix.common.CommonMethods] Start time: 12/05/2015 11:20:44
+[main] 11:20:44,597 INFO  [com.ecalix.common.CommonMethods] Fail
+[main] 11:20:44,615 INFO  [com.ecalix.common.ReadPropertyFile] Value is:Chrome
+[main] 11:20:45,416 INFO  [com.ecalix.common.ScreenCapture] Screen Name:=AccountLoginTests_testLogin01
+[main] 11:20:45,416 INFO  [com.ecalix.common.ReadPropertyFile] Value is:eCommerge
+[main] 11:20:45,416 INFO  [com.ecalix.common.ReadPropertyFile] Value is:Cycle1
+[main] 11:20:45,457 INFO  [com.ecalix.common.ScreenCapture] <a href= /Users/rameshtejavath/Documents/Selenium/Batch1115/Catalog/screenshots\eCommerge\Cycle1\screenshots\12-05-2015_11.20.45_AccountLoginTests_testLogin01.jpg target='_blank' >12-05-2015_11.20.45_AccountLoginTests_testLogin01.jpg</a>
+[main] 11:20:45,458 INFO  [com.ecalix.common.CommonMethods] screenshot captured for: AccountLoginTests.testLogin01()[pri:0, instance:com.ecalix.tests.AccountLoginTests@abeafe7] Failed TestCase
+[main] 11:20:45,468 INFO  [com.ecalix.common.CommonMethods] Closing browser...
+[main] 11:20:46,144 INFO  [com.ecalix.common.CommonMethods] Browser closed.

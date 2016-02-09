@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My suite" parallel="tests" thread-count="5">
+   <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+   </listeners>   
+  <tests>
+  <test name="Regression">
+  <parameter name="remoteBrowserType" value="FireFox"/>
+   <sysproperty key="org.uncommons.reportng.escape-output" value="false"/>
+  <sysproperty key="org.uncommons.reportng.title" value="Test"/>
+	<classes>
+		<class name="com.ecalix.tests.AccountLoginTests"/>
+	</classes>
+   </test> <!-- Test -->  
+
+   </tests>
+     <test name="Regression">
+  <parameter name="remoteBrowserType" value="Chrome"/>
+   <sysproperty key="org.uncommons.reportng.escape-output" value="false"/>
+  <sysproperty key="org.uncommons.reportng.title" value="Test"/>
+	<classes>
+		<class name="com.ecalix.tests.AccountLoginTests"/>
+	</classes>
+   </test> <!-- Test -->  
+
+   </tests>
+</suite> <!-- regression -->
